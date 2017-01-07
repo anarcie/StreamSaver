@@ -10,7 +10,7 @@ stream_quality = 'high'
 save_location = '/media/quanternary/streams/'
 
 def CheckStream():
-	client_id = 'yryp0trc799327bj62kfrhnf04x8x7'
+	client_id = 'YOURCLIENTID'
 	url = "https://api.twitch.tv/kraken/streams/%s?client_id=%s" % (streamer, client_id)
 	r = requests.get(url)
 	stream = r.json()
